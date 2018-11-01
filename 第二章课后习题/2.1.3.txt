@@ -1,0 +1,19 @@
+publc class demo{
+
+ /**
+ 
+ 对于第二章的第三题，构建一个含有N个元素的数组，可以考虑用arraylist  实现，
+ 毕竟单纯的数组是无法实现的，由于java中数组的引用特性，数组初始化的时候就
+ 基本规定了数组的长度
+ List<Integer > a=new  ArrayList<Integer>();
+		for (int i=0;i<Math.random()*10+1;i++){
+			a.add((int) (Math.random()*10+1));
+		}
+		
+		Integer [] b=new Integer[a.size()]; 
+		b=a.toArray(b);
+		
+			System.out.println(b+ " ");
+ 
+  **/
+}
