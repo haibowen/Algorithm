@@ -22,8 +22,9 @@ public class Shell {
 
 
                 }
-                h=h/3;
+
             }
+            h=h/3;
         }
 
 

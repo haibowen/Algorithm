@@ -1,5 +1,7 @@
 package com.haibowen.sort;
 
+import edu.princeton.cs.algs4.Insertion;
+import edu.princeton.cs.algs4.Selection;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
