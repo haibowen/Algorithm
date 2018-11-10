@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1882f4c-b81d-4bbd-86e1-35ce0dd3a2cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/haibowen/play/TestShell1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/haibowen/play/TestSortCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/haibowen/sort/Merage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/haibowen/sort/MergeBU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/haibowen/sort/Quick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haibowen/sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/haibowen/sort/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haibowen/sort/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/haibowen/sort/SortCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/haibowen/sort/Merage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/haibowen/sort/Merage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
     <session id="-1453987040">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -35,24 +33,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="50" />
+          <entry key="java" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="50" />
+          <entry key="JAVA" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="9655" />
+          <entry key="java" value="11228" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9655" />
+          <entry key="JAVA" value="11228" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -90,11 +88,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/Merage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="-1081">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/MergeBU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-769">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/Quick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1352">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -209,10 +225,13 @@
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestSortCompare.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/sort/Shell.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestShell1.java" />
+        <option value="$PROJECT_DIR$/src/com/haibowen/sort/Merage.java" />
+        <option value="$PROJECT_DIR$/src/com/haibowen/sort/MergeBU.java" />
+        <option value="$PROJECT_DIR$/src/com/haibowen/sort/Quick.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="8" />
     <option name="width" value="1913" />
     <option name="height" value="965" />
@@ -264,7 +283,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541840877642" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541852615980" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -285,7 +304,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestShell1">
+  <component name="RunManager" selected="Application.Merage">
+    <configuration name="Merage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haibowen.sort.Merage" />
+      <module name="first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haibowen.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.haibowen.sort.Shell" />
       <module name="first" />
@@ -307,20 +339,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.haibowen.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestShell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.haibowen.play.TestShell" />
-      <module name="first" />
-      <option name="PROGRAM_PARAMETERS" value="Insertion Selection 1000 100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.haibowen.play.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,17 +375,17 @@
     <list>
       <item itemvalue="Application.SortCompare" />
       <item itemvalue="Application.Shell" />
-      <item itemvalue="Application.TestShell" />
       <item itemvalue="Application.TestSortCompare" />
       <item itemvalue="Application.TestShell1" />
+      <item itemvalue="Application.Merage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merage" />
         <item itemvalue="Application.TestShell1" />
         <item itemvalue="Application.Shell" />
         <item itemvalue="Application.TestSortCompare" />
         <item itemvalue="Application.SortCompare" />
-        <item itemvalue="Application.TestShell" />
       </list>
     </recent_temporary>
   </component>
@@ -409,8 +427,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1390" height="747" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3065967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -421,7 +438,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3089431" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3089431" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -787,8 +804,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/Merage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="-1081">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/MergeBU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
