@@ -2,7 +2,7 @@ package com.haibowen.sort;
 
 public class Heap {
 
-
+/**
     public  static  void  sort(Comparable []a ){
 
         int N=a.length;
@@ -40,4 +40,5 @@ public class Heap {
         a[j]=t;
 
     }
+ **/
 }
