@@ -97,7 +97,7 @@ public class TestRedBlackBST<Key extends  Comparable<Key>,Value> {
             flipColors(h);
         h.N=size(h.left)+size(h.right)+1;
         return h;
-        
+
 
 
     }
