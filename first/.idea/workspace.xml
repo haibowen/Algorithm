@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1882f4c-b81d-4bbd-86e1-35ce0dd3a2cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/haibowen/play/TestBreadFirstPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/haibowen/graph/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/haibowen/graph/Cycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haibowen/play/TestDepthFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/haibowen/play/TestDepthFirstPaths.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,25 +40,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="98" />
+          <entry key="java" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="98" />
+          <entry key="JAVA" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="26089" />
+          <entry key="java" value="26447" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26089" />
+          <entry key="JAVA" value="26447" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -66,27 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/BreadthFirstPaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/haibowen/play/TestGrap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/haibowen/play/TestGrap1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/haibowen/play/TestBreadFirstPaths.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="411">
@@ -139,6 +118,24 @@
                 <element signature="e#901#902#0" expanded="true" />
                 <element signature="e#1049#1058#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/CC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/Cycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -185,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/haibowen/play/TestGcd.java" />
-        <option value="$PROJECT_DIR$/src/com/haibowen/algs1/Date.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/algs1/TestData.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/sort/TestExample.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/sort/Selection.java" />
@@ -236,6 +231,8 @@
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestDepthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestDepthFirstPaths.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestBreadFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/com/haibowen/graph/CC.java" />
+        <option value="$PROJECT_DIR$/src/com/haibowen/graph/Cycle.java" />
       </list>
     </option>
   </component>
@@ -290,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544261085195" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544272840998" />
     <property name="last_opened_file_path" value="D:/AndroidProject/androidStudy_DrawerLayout" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -433,6 +430,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30209896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -470,20 +468,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="算法练习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/haibowen/play/TestShell1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/MergeBU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/first/com/haibowen/algs1/Accumulator.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -846,6 +830,20 @@
             <element signature="e#901#902#0" expanded="true" />
             <element signature="e#1049#1058#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/CC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
