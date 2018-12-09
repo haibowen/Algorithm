@@ -61,6 +61,6 @@ public class SymbolGraph {
     public Graph G(){
 
         return G;
-         
+
     }
 }
