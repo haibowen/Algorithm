@@ -1,6 +1,7 @@
 package com.haibowen.graph;
 
 import edu.princeton.cs.algs4.Bag;
+import edu.princeton.cs.algs4.In;
 
 public class Digraph {
 
@@ -8,7 +9,7 @@ public class Digraph {
 
     private  int E;
     private Bag<Integer> [] adj;
-    public Digraph(int V){
+    public Digraph(In V){
         this.V=V;
         this.E=0;
         adj=(Bag<Integer>[]) new Bag[V];
@@ -55,7 +56,7 @@ public class Digraph {
 
     }
 
-    
+
 }
 
 
