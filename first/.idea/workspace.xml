@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/haibowen/search/TestBinarySearch.java" line="62" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1882f4c-b81d-4bbd-86e1-35ce0dd3a2cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/haibowen/graph/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/haibowen/graph/Digraph.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1882f4c-b81d-4bbd-86e1-35ce0dd3a2cf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,25 +36,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="104" />
+          <entry key="java" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="28341" />
+          <entry key="java" value="28819" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28341" />
+          <entry key="JAVA" value="28819" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -64,18 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/haibowen/play/TestBreadFirstPaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/CC.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,15 +110,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/DirectedDFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="462">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#919#928#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/DirectedCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -179,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/haibowen/sort/Insertion.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestShell.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/sort/SortCompare.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/play/TestSortCompare.java" />
@@ -230,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/com/haibowen/graph/SymbolGraph.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/graph/Digraph.java" />
         <option value="$PROJECT_DIR$/src/com/haibowen/graph/DirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/com/haibowen/graph/DirectedCycle.java" />
       </list>
     </option>
   </component>
@@ -284,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544338757613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544352458897" />
     <property name="last_opened_file_path" value="D:/AndroidProject/androidStudy_DrawerLayout" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -465,13 +460,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="算法练习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/haibowen/sort/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -835,12 +823,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/DirectedDFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="462">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#919#928#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/haibowen/graph/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
