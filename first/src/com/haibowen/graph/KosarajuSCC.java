@@ -1,5 +1,6 @@
 package com.haibowen.graph;
 
+
 import edu.princeton.cs.algs4.DepthFirstOrder;
 
 public class KosarajuSCC {
@@ -7,11 +8,11 @@ public class KosarajuSCC {
     private  boolean [] marked;
     private int [] id;
     private  int count;
-    public  KosarajuSCC(edu.princeton.cs.algs4.Digraph G){
+    public  KosarajuSCC(Digraph G){
 
         marked=new boolean[G.V()];
         id=new  int[G.V()];
-        DepthFirstOrder order=new DepthFirstOrder(G.reverse());
+       DepthFirstOrder order=new DepthFirstOrder(G.reverse());
         for (int s:order.reversePost())
             if (!marked[s]){
 

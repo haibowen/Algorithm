@@ -42,7 +42,7 @@ public class DirectedDFS {
 
     public static void  main(String args[]){
 
-        Digraph G=new Digraph(new In(args[0]));
+       Digraph G=new Digraph(new In(args[0]));
         Bag<Integer> sources=new Bag<Integer>();
         for (int i=1;i<args.length;i++)
             sources.add(Integer.parseInt(args[i]));

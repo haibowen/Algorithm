@@ -1,6 +1,8 @@
 package com.haibowen.graph;
 
-import java.util.Queue;
+
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.Stack;
 
 public class BreadthFirstPaths {
     private boolean [] marked;
@@ -36,6 +38,14 @@ public class BreadthFirstPaths {
 
     }
     public Iterable<Integer> pathTo(int v){
+
+        if (!hasPathTo(v))
+            return null;
+        Stack<Integer> path=new Stack<Integer>();
+        for (int x=v;x!=s;x=edgeTo[x])
+            path.push(x);
+        path.push(s);
+        return path;
 
 
     }
